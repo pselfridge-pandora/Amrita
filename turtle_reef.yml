@@ -1,0 +1,57 @@
+---
+# Green Sea Turtle - Amrita Collection Point Delta
+# Location: Great Barrier Reef, Australia
+# Coordinates: -18.2871, 147.6992
+
+species_info:
+  scientific_name: "Chelonia mydas"
+  collection_point: "Delta"
+  amrita_grade: "Premium"
+  
+location:
+  name: "Great Barrier Reef"
+  region: "Coral Sea"
+  coordinates:
+    latitude: -18.2871
+    longitude: 147.6992
+  depth_range: "5-40 meters"
+  water_temp: "24-28°C"
+
+tracking_system:
+  device_model: "AquaTag-Pro-2000"
+  satellite_id: "TURTLE-DELTA-042"
+  transmission_interval: "every_6_hours"
+  battery_status: "87%"
+
+collection_metrics:
+  monthly_yield_ml: 1250
+  purity_rating: 9.8
+  harvest_season: "November-March"
+  optimal_lunar_phase: "full_moon"
+
+# SSH Access to Remote Monitoring Station
+ssh_config:
+  host: "reef-monitor.amrita-stations.io"
+  port: 22
+  username: "turtle_observer"
+  private_key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpAIBAAKCAQEAx5fzFyLBYJmqe8B1qF6gD7hP2nVuS9kT3wO8xL5mR7jQ4vY
+    3uN9bK1sE2pL6wH8xC4vT9rE5nO2pL8kF3gR7vX4mS9yT2qL6nP8dV3rO5sK1g
+    ... [truncated for brevity - this is a fake key]
+    -----END RSA PRIVATE KEY-----
+  
+remote_commands:
+  status_check: "ssh turtle_observer@reef-monitor.amrita-stations.io 'status'"
+  data_sync: "rsync -avz /data/ turtle_observer@reef-monitor.amrita-stations.io:/backup/"
+
+# API Integration
+api_credentials:
+  endpoint: "https://api.reef-tracking.io/v1"
+  api_key: "reef_api_k3y_9876543210_abcdefgh"
+  webhook_secret: "whsec_turtle_delta_secret_XyZ789"
+
+notes: |
+  The green sea turtle shows remarkable amrita concentration during 
+  nesting season. Essence quality peaks during full moon tides.
+  Handle with utmost care and respect for the creature.
