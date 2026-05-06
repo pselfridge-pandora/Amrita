@@ -1,0 +1,66 @@
+{
+  "creature": "Arctic Narwhal",
+  "scientific_name": "Monodon monoceros",
+  "collection_point": "Epsilon",
+  "status": "active",
+  "location": {
+    "region": "Baffin Bay",
+    "country": "Canada/Greenland",
+    "coordinates": {
+      "latitude": 73.0479,
+      "longitude": -71.9653
+    },
+    "ice_coverage": "seasonal",
+    "depth_range": "0-1500m"
+  },
+  "amrita_properties": {
+    "type": "Arctic_Essence",
+    "color": "crystalline_white",
+    "potency_scale": 9.5,
+    "tusk_concentration": "highest",
+    "optimal_collection": "during_ice_break"
+  },
+  "tracking": {
+    "device_id": "NARWHAL-EPSILON-088",
+    "tag_type": "satellite_GPS",
+    "manufacturer": "Ocean_Tech_Industries",
+    "last_ping": "2026-05-06T08:30:00Z"
+  },
+  "oauth_integration": {
+    "provider": "AmritaCloud",
+    "client_id": "narwhal_tracker_epsilon_client_8675309",
+    "client_secret": "nArWh@l_0Auth_S3cr3t_T0k3n_XyZ9876",
+    "access_token": "ya29.a0AfH6SMBxxx_narwhal_access_token_example_yyy",
+    "refresh_token": "1//0gJnarwhal_refresh_token_long_string_example",
+    "token_uri": "https://oauth.amrita-cloud.io/token",
+    "scopes": [
+      "tracking.read",
+      "tracking.write",
+      "essence.collect",
+      "data.analytics"
+    ]
+  },
+  "firebase_config": {
+    "apiKey": "AIzaSyC-narwhal_firebase_key_example_12345",
+    "authDomain": "narwhal-tracking.firebaseapp.com",
+    "projectId": "narwhal-tracking-epsilon",
+    "storageBucket": "narwhal-tracking.appspot.com",
+    "messagingSenderId": "123456789012",
+    "appId": "1:123456789012:web:abcdef123456"
+  },
+  "collection_schedule": [
+    {
+      "season": "Spring",
+      "months": ["April", "May", "June"],
+      "estimated_yield_liters": 2.4,
+      "tusk_essence_factor": 1.8
+    },
+    {
+      "season": "Summer", 
+      "months": ["July", "August"],
+      "estimated_yield_liters": 1.9,
+      "tusk_essence_factor": 1.5
+    }
+  ],
+  "researcher_notes": "The narwhal's tusk channels pure Arctic amrita. Collection must be performed during ice break periods when essence is most accessible. The creature's migration patterns align with ancient celestial cycles."
+}
