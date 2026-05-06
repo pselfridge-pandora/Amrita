@@ -1,0 +1,37 @@
+{
+  "species": "Atolla wyvillei",
+  "common_name": "Bioluminescent Deep Sea Jellyfish",
+  "collection_point": "Beta",
+  "location": {
+    "region": "Mariana Trench",
+    "latitude": 11.3733,
+    "longitude": 142.5917,
+    "depth_meters": 8200,
+    "temperature_celsius": 2.4
+  },
+  "amrita_properties": {
+    "color": "ethereal_blue",
+    "luminosity": "high",
+    "potency": 8.7,
+    "collection_method": "bioluminescent_extraction"
+  },
+  "database_connection": {
+    "host": "jellyfish-db.amrita-tracking.io",
+    "port": 5432,
+    "database": "amrita_specimens",
+    "username": "collector_admin",
+    "password": "J3lly_F1sh_P@ssw0rd_2026!",
+    "ssl_mode": "require"
+  },
+  "monitoring": {
+    "device_id": "JELLY-BETA-007",
+    "sensor_array": [
+      "temperature",
+      "pressure",
+      "luminosity",
+      "amrita_concentration"
+    ],
+    "data_transmission": "satellite_uplink"
+  },
+  "collection_notes": "Peak amrita production occurs during new moon phases. The creature's bioluminescence intensifies in proportion to essence concentration."
+}
